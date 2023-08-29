@@ -1,0 +1,12 @@
+:root {
+    --fundo: #000000;
+    --fundo-card: #1B2226;
+    --input: hsla(211, 17%, 26%, 1);
+    --texto-primario: hsla(0, 0%, 100%, 0.9);
+    --texto-secundario: hsla(0, 0%, 100%, 0.6);
+    --texto-escuro: hsla(0, 0%, 0%, 0.75);
+    --primario: hsla(210, 92%, 71%, 1);
+
+    --fonte-principal: 'Roboto', sans-serif;
+    --fonte-secundaria: 'Inter', sans-serif;
+}

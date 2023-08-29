@@ -1,0 +1,60 @@
+@import url('./variaveis.css');
+
+.experiencias {
+    padding: 1rem 1.5rem;
+}
+
+.experiencias__titulo {
+    margin-bottom: 0.5rem;
+}
+
+.experiencias__empresa {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.experiencias__empresa-imagem {
+    width: 3rem;
+}
+
+.experiencias__empresa-infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencias__empresa-nome {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.experiencias__empresa-tempo {
+    color: var(--texto-secundario);
+    line-height: 1rem;
+}
+
+.experiencias__cargos {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.experiencias__divisor {
+    margin-left: 1.25rem;
+    margin-right: 1.75rem;
+}
+
+.experiencias__cargos-titulo {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.experiencias__cargos-tipo {
+    line-height: 1rem;
+}
+
+.experiencias__cargos-tempo,
+.experiencias__cargos-local {
+    color: var(--texto-secundario);
+    line-height: 1rem;
+}

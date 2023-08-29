@@ -1,0 +1,60 @@
+@import url('./variaveis.css');
+@import url('./perfil.css');
+@import url('./navegacao.css');
+@import url('./destaques.css');
+@import url('./atividades.css');
+@import url('./sobre.css');
+@import url('./experiencias.css');
+@import url('./formacao.css');
+@import url('./idioma.css');
+@import url('./conexoes.css');
+
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: var(--fundo);
+    color: var(--texto-primario);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25rem;
+    display: grid;
+    grid-template-areas: 
+        'nav nav nav'
+        'main main aside'
+        'main main aside';
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem 0 0 10rem;
+    width: 100%;
+}
+
+.container-interno {
+    background-color: var(--fundo-card);
+    border-radius: 16px;
+    width: 100%;
+}
+
+.titulo {    
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.875rem;
+}

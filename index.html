@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+
+    <title>LinkedIn</title>
+</head>
+
+<body>
+    <nav class="navegacao">
+        <div class="navegacao__pesquisa">
+            <img loading="lazy" src="./img/logo.svg" alt="Logo do LinkedIn">
+            <input class="navegacao__caixa" type="search" placeholder="Pesquisar">
+        </div>
+
+        <div>
+            <ul class="navegacao__lista">
+                <li>
+                    <a href="#">
+                        <img src="./img/home.svg" alt="Home">
+                        <p class="navegacao__texto">Início</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/minha-rede.svg" alt="Minha rede">
+                        <p class="navegacao__texto">Minha rede</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/vagas.svg" alt="Vagas">
+                        <p class="navegacao__texto">Vagas</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/mensagens.svg" alt="Mensagens">
+                        <p class="navegacao__texto">Mensagens</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/notificacoes.svg" alt="Notificações">
+                        <p class="navegacao__texto">Notificações</p>
+                    </a>
+                </li>
+                <span class="navegacao__linha-vertical"></span>
+                <li>
+                    <a href="#">
+                        <img src="./img/solucoes.svg" alt="Soluções">
+                        <p class="navegacao__texto">Soluções</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container-principal">
+        <section class="principal container-interno">
+            <img class="principal__capa" loading="lazy" src="./img/capa.png" alt="Lista de códigos com as pastas">
+
+            <img class="img-perfil" src="https://github.com/caioikn.png" alt="Foto perfil">
+
+            <div class="informacoes">
+                <div class="informacoes__dados">
+                    <h2 class="informacoes__nome">Caio Ikena</h2>
+                    <h3 class="informacoes__titulo">Desenvolvedor Front-End | HTML | CSS | JavaScript | React</h3>
+                    <p class="informacoes__tags">Fala sobre #javascript, #frontend, #reactjs e #backend</p>
+                    <p class="informacoes__local">São Paulo, Brasil <span>•</span> <a class="informacoes__contato" href="#">informações de contato</a></p>
+
+                    <div class="informacoes__conexoes">
+                        <a href="#">57 seguidores</a>
+                        <span>•</span>
+                        <a href="#">56 conexões</a>
+                    </div>
+
+                    <a class="botao botao-mensagem" href="#">Mensagem</a>
+                    <a class="botao botao-mais" href="#">Mais</a>
+                </div>
+
+                <div class="informacoes__carreira">
+                    <div class="carreira-container">
+                        <img loading="lazy" src="./img/empresa.svg" alt="">
+                        <p>Empresa</p>
+                    </div>
+
+                    <div class="carreira-container">
+                        <img loading="lazy" src="./img/instituicao.svg" alt="">
+                        <p>Instituição de ensino</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="destaques container-interno">
+            <h2 class="destaques__titulo titulo">Destaques</h2>
+
+            <div class="destaques__publicacoes-container">
+                <div class="destaques__publicacoes">
+                    <h3 class="destaques__publicacoes-titulo">Publicação</h3>
+                    <p class="destaques__publicacoes-legenda">Legenda da primeira publicação...</p>
+                    <img class="destaques__publicacoes-imagem" src="./img/publicacao-1.jpg" alt="Publicação">
+                    <div class="destaques__publicacao-reacoes">
+                        <img src="./img/reacoes.svg" alt="Reações">
+                        <span>124</span>
+                        <p>5 comentários</p>
+                    </div>
+                </div>
+
+                <div class="destaques__publicacoes">
+                    <h3 class="destaques__publicacoes-titulo">Publicação</h3>
+                    <p class="destaques__publicacoes-legenda">Legenda da primeira publicação...</p>
+                    <img class="destaques__publicacoes-imagem" src="./img/publicacao-2.jpg" alt="Publicação">
+                    <div class="destaques__publicacao-reacoes">
+                        <img src="./img/reacoes.svg" alt="Reações">
+                        <span>124</span>
+                        <p>5 comentários</p>
+                    </div>
+                </div>
+
+                <div class="destaques__publicacoes">
+                    <h3 class="destaques__publicacoes-titulo">Publicação</h3>
+                    <p class="destaques__publicacoes-legenda">Legenda da primeira publicação...</p>
+                    <img class="destaques__publicacoes-imagem" src="./img/publicacao-3.jpg" alt="Publicação">
+                    <div class="destaques__publicacao-reacoes">
+                        <img src="./img/reacoes.svg" alt="Reações">
+                        <span>124</span>
+                        <p>5 comentários</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="atividades container-interno">
+            <h2 class="atividades__titulo titulo">Atividades</h2>
+            <span class="atividades__seguidores">57 seguidores</span>
+
+            <div class="atividades__postagem">
+                <p class="atividades__info">Caio Ikena publicou isso • 1 sem</p>
+                <img class="atividades__postagem-capa" src="./img/publicacao-1.jpg" alt="Publicação">
+                <p class="atividades__postagem-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
+                <img class="atividades__postagem-reacoes" src="./img/reacoes.svg" alt="Reações">
+                <span class="atividades__postagem-quantidade">124</span>
+                <span class="atividades__postagem-comentarios">5 comentários</span>
+            </div>
+
+            <div class="atividades__postagem">
+                <p class="atividades__info">Caio Ikena publicou isso • 1 sem</p>
+                <img class="atividades__postagem-capa" src="./img/publicacao-1.jpg" alt="Publicação">
+                <p class="atividades__postagem-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
+                <img class="atividades__postagem-reacoes" src="./img/reacoes.svg" alt="Reações">
+                <span class="atividades__postagem-quantidade">124</span>
+                <span class="atividades__postagem-comentarios">5 comentários</span>
+            </div>
+
+            <p class="atividades__exibir">Exibir todas as atividades</p>
+        </section>
+
+        <section class="sobre container-interno">
+            <h2 class="sobre__titulo titulo">Sobre</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </section>
+
+        <section class="experiencias container-interno">
+            <h2 class="experiencias__titulo titulo">Experiências</h2>
+
+            <div class="experiencias__empresa">
+                <img class="experiencias__empresa-imagem" src="./img/empresa.svg" alt="Foto da empresa">
+                <div class="experiencias__empresa-infos">
+                    <span class="experiencias__empresa-nome">Empresa</span>
+                    <span class="experiencias__empresa-tempo">1 a 7 m</span>
+                </div>
+            </div>
+
+            <ul>
+                <li class="experiencias__cargos">
+                    <img class="experiencias__divisor" src="./img/detalhe timeline.svg" alt="">
+                    <div>
+                        <h3 class="experiencias__cargos-titulo">Fullstack Developer</h3>
+                        <p class="experiencias__cargos-tipo">Tempo integral</p>
+                        <p class="experiencias__cargos-tempo">jan de 2022 - o momento • 5 meses</p>
+                        <p class="experiencias__cargos-local">Cidade, estado e país</p>
+                    </div>
+                </li>
+
+                <li class="experiencias__cargos">
+                    <img class="experiencias__divisor" src="./img/detalhe timeline.svg" alt="">
+                    <div>
+                        <h3 class="experiencias__cargos-titulo">Fullstack Developer (JR)</h3>
+                        <p class="experiencias__cargos-tipo">Tempo integral</p>
+                        <p class="experiencias__cargos-tempo">jun de 2021 - jan de 2022 • 8 meses</p>
+                        <p class="experiencias__cargos-local">Cidade, estado e país</p>
+                    </div>
+                </li>
+
+                <li class="experiencias__cargos">
+                    <img class="experiencias__divisor" src="./img/detalhe timeline.svg" alt="">
+                    <div>
+                        <h3 class="experiencias__cargos-titulo">Front-end Developer</h3>
+                        <p class="experiencias__cargos-tipo">Tempo integral</p>
+                        <p class="experiencias__cargos-tempo">jan de 2021 - jun de 2021 • 6 meses</p>
+                        <p class="experiencias__cargos-local">Cidade, estado e país</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="formacao container-interno">
+            <h2 class="titulo">Formação Acadêmica</h2>
+
+            <div class="formacao__info">
+                <img class="formacao__imagem" src="./img/instituicao.svg" alt="Instituição de ensino">
+                <div>
+                    <h3 class="formacao__instituicao">Instituição de ensino</h3>
+                    <h4 class="formacao__curso">Nome do curso</h4>
+                    <p class="formacao__ano">2015 a 2019</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="idioma container-interno">
+            <h2 class="titulo">Idiomas</h2>
+            <ul>
+                <li class="idioma__lista">
+                    <h3 class="idioma__lingua">Português</h3>
+                    <span class="idioma__nivel">Fluente ou nativo</span>
+                </li>
+
+                <li>
+                    <h3 class="idioma__lingua">Inglês</h3>
+                    <span class="idioma__nivel">Intermediário</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <aside>
+        <section class="conexoes">
+            <h2 class="conexoes__titulo">As pessoas também viram</h2>
+
+            <ul class="conexoes__lista">
+                <li class="conexoes__dados">
+                    <img class="conexoes__foto" src="./img/foto-perfil1.png" alt="Foto de perfil">
+                    <div class="conexoes__informacoes">
+                        <h3 class="conexoes__nome">Nome e sobrenome</h3>
+                        <span class="conexoes__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a class="conexoes__botao" href="#">Enviar mensagem</a>
+                </li>
+
+                <li class="conexoes__dados">
+                    <img class="conexoes__foto" src="./img/foto-perfil2.png" alt="Foto de perfil">
+                    <div class="conexoes__informacoes">
+                        <h3 class="conexoes__nome">Nome e sobrenome</h3>
+                        <span class="conexoes__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a class="conexoes__botao" href="#">Enviar mensagem</a>
+                </li>
+
+                <li class="conexoes__dados">
+                    <img class="conexoes__foto" src="./img/foto-perfil3.png" alt="Foto de perfil">
+                    <div class="conexoes__informacoes">
+                        <h3 class="conexoes__nome">Nome e sobrenome</h3>
+                        <span class="conexoes__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a class="conexoes__botao" href="#">Enviar mensagem</a>
+                </li>
+
+                <li class="conexoes__dados">
+                    <img class="conexoes__foto" src="./img/foto-perfil4.png" alt="Foto de perfil">
+                    <div class="conexoes__informacoes">
+                        <h3 class="conexoes__nome">Nome e sobrenome</h3>
+                        <span class="conexoes__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a class="conexoes__botao" href="#">Enviar mensagem</a>
+                </li>
+
+                <li class="conexoes__dados">
+                    <img class="conexoes__foto" src="./img/foto-perfil5.png" alt="Foto de perfil">
+                    <div class="conexoes__informacoes">
+                        <h3 class="conexoes__nome">Nome e sobrenome</h3>
+                        <span class="conexoes__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a class="conexoes__botao" href="#">Enviar mensagem</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="conexoes">
+            <h2 class="conexoes__titulo">Pessoas que talvez você conheça</h2>
+
+            <ul class="conexoes__lista">
+                <li class="conexoes__dados">
+                    <img class="conexoes__foto" src="./img/foto-perfil6.png" alt="Foto de perfil">
+                    <div class="conexoes__informacoes">
+                        <h3 class="conexoes__nome">Nome e sobrenome</h3>
+                        <span class="conexoes__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a class="conexoes__botao" href="#">Conectar</a>
+                </li>
+
+                <li class="conexoes__dados">
+                    <img class="conexoes__foto" src="./img/foto-perfil2.png" alt="Foto de perfil">
+                    <div class="conexoes__informacoes">
+                        <h3 class="conexoes__nome">Nome e sobrenome</h3>
+                        <span class="conexoes__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a class="conexoes__botao" href="#">Conectar</a>
+                </li>
+
+                <li class="conexoes__dados">
+                    <img class="conexoes__foto" src="./img/foto-perfil3.png" alt="Foto de perfil">
+                    <div class="conexoes__informacoes">
+                        <h3 class="conexoes__nome">Nome e sobrenome</h3>
+                        <span class="conexoes__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a class="conexoes__botao" href="#">Conectar</a>
+                </li>
+
+                <li class="conexoes__dados">
+                    <img class="conexoes__foto" src="./img/foto-perfil4.png" alt="Foto de perfil">
+                    <div class="conexoes__informacoes">
+                        <h3 class="conexoes__nome">Nome e sobrenome</h3>
+                        <span class="conexoes__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a class="conexoes__botao" href="#">Conectar</a>
+                </li>
+
+                <li class="conexoes__dados">
+                    <img class="conexoes__foto" src="./img/foto-perfil5.png" alt="Foto de perfil">
+                    <div class="conexoes__informacoes">
+                        <h3 class="conexoes__nome">Nome e sobrenome</h3>
+                        <span class="conexoes__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a class="conexoes__botao" href="#">Conectar</a>
+                </li>
+            </ul>
+        </section>
+    </aside>
+</body>
+
+</html>

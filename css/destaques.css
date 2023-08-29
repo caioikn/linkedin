@@ -1,0 +1,46 @@
+@import url('./variaveis.css');
+
+.destaques {
+    padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.destaques__publicacoes-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.destaques__publicacoes {
+    border: 1px solid var(--texto-secundario);
+    border-radius: 8px;
+}
+
+.destaques__titulo {
+    margin-bottom: 0.5rem;
+}
+
+.destaques__publicacoes-titulo {
+    color: var(--texto-secundario);
+    font-size: 0.75rem;
+    padding: 0.75rem 0 0 0.85rem;
+}
+
+.destaques__publicacoes-legenda {
+    font-size: 0.875rem;
+    padding-left: 0.85rem;
+    padding-bottom: 0.25rem;
+}
+
+.destaques__publicacoes-imagem {
+    width: 100%;
+}
+
+.destaques__publicacao-reacoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem;
+}
+
+.destaques__publicacao-reacoes span {
+    margin-right: auto;
+    margin-left: 0.25rem;
+}

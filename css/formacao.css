@@ -1,0 +1,29 @@
+@import url('./variaveis.css');
+
+.formacao {
+    padding: 1rem 1.5rem;
+}
+
+.formacao__info {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.formacao__imagem {
+    width: 3rem;
+}
+
+.formacao__instituicao {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.formacao__curso,
+.formacao__ano {
+    line-height: 1rem;
+}
+
+.formacao__ano {
+    color: var(--texto-secundario);
+}

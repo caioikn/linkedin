@@ -1,0 +1,60 @@
+@import url('./variaveis.css');
+
+.conexoes {    
+    background-color: var(--fundo-card);
+    border-radius: 16px;
+    font-family: var(--fonte-secundaria);
+    margin: 1.5rem 15rem 0 2rem;
+    width: 60%;
+}
+
+.conexoes__titulo {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: normal;
+    padding: 1rem 0 0 1rem;
+}
+
+.conexoes__lista {
+    padding-bottom: 1rem;
+}
+
+.conexoes__dados {
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem 1rem 0.5rem 1rem;
+}
+
+.conexoes__foto {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: 3rem;
+    width: 3rem;
+}
+
+.conexoes__informacoes {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+
+.conexoes__nome {
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conexoes__descricao {
+    color: var(--texto-secundario);
+    font-size: 0.75rem;
+    line-height: normal;
+}
+
+.conexoes__botao {
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: normal;
+    border: 1px solid var(--texto-primario);
+    border-radius: 16px;
+    background: transparent;
+    padding: 0.4rem 1rem;
+    grid-column: 2 / 3;
+}

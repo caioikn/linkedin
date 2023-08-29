@@ -1,0 +1,21 @@
+@import url('./variaveis.css');
+
+.idioma {
+    padding: 1rem 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.idioma__lista {
+    border-bottom: 1px solid var(--texto-secundario);
+    padding-bottom: 0.75rem;
+}
+
+.idioma__lingua {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.idioma__nivel {
+    color: var(--texto-secundario);
+}

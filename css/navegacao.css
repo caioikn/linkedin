@@ -1,0 +1,64 @@
+@import url('./variaveis.css');
+
+.navegacao {
+    align-items: center;
+    background-color: var(--fundo-card);
+    display: flex;
+    padding: 8px 150px;
+}
+
+.navegacao__pesquisa {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    margin-right: 120px;
+}
+
+.navegacao__caixa {    
+    background: url('../img/busca.svg') no-repeat left;
+    background-color: var(--input);
+    background-position: 8px;
+    background-size: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    color: var(--texto-primario);
+    height: 34px;
+    padding-left: 40px;
+    width: 280px;
+}
+
+.navegacao__caixa::placeholder {
+    color: var(--texto-primario);
+    line-height: 1.875rem;
+}
+
+.navegacao__lista {
+    display: flex;
+    gap: 2.5rem;
+    position: relative;
+    text-align: center;
+}
+
+.navegacao__lista a {
+    color: var(--texto-primario);
+}
+
+.navegacao__texto {
+    font-size: 12px;
+    line-height: normal;
+}
+
+.navegacao__linha-vertical {
+    background-color: var(--texto-secundario);
+    height: 58px;
+    position: absolute;
+    right: 70px;
+    top: -8px;
+    width: 1px;
+}
+
+@media (max-width: 1260px) {
+    .navegacao {
+        display: none;
+    }
+}
