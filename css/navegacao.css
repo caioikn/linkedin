@@ -5,6 +5,7 @@
     background-color: var(--fundo-card);
     display: flex;
     padding: 8px 150px;
+    justify-content: space-between;
 }
 
 .navegacao__pesquisa {
